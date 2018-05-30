@@ -66,7 +66,7 @@
 background-size:100% 100%; 
 background-attachment:fixed;" >
 	<div align="middle">
-	<font size="5" ><h2><p class="tyg-p">欢迎访问  MRwang的网站</p></h2></font>
+	<marquee behavior=alternate ><font face="隶书" size="+5" color="#2EB4C4"><h2><p >欢迎访问  MRwang的网站</p></h2></font> </marquee> 
 
 
 <div class="tyg-div-denglv">
