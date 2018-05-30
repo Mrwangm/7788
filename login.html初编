@@ -66,8 +66,23 @@
 background-size:100% 100%; 
 background-attachment:fixed;" >
 	<div align="middle">
-	<marquee behavior=alternate ><font face="隶书" size="+5" color="#2EB4C4"><h2><p >欢迎访问  MRwang的网站</p></h2></font> </marquee> 
+				<marquee behavior=alternate ><font face="隶书" size="+5" color="#2EB4C4"><h2 class="title" id="character" ><p >在人群中多看了你一眼</p></h2></font> </marquee> 
 
+<script type="text/javascript">
+         
+    var i=0;
+    setInterval('changeColor()',500);
+        function changeColor(){
+            var div=document.getElementById('character'); 
+            var colorArr=['#8A2BE2','#DEB887','#7FFF00','#FF2D2D','#FF1493']; 
+            if(i==colorArr.length){ 
+                    i=0;
+                }else{
+                    div.style.color=colorArr[i++%colorArr.length]; 
+                }
+            }
+</script>
+		
 
 <div class="tyg-div-denglv">
 	<div class="tyg-div-form">
