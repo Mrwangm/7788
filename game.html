@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+   	<body background='image/waad.jpg'  style=" background-repeat:no-repeat ;
+background-size:100% 100%; 
+background-attachment:fixed;" >
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <style type="text/css">
+            #a{
+               
+               
+                left: 500px;
+                top: 200px;
+                padding-top: 100px;
+             
+                text-align: left;
+            }
+            #no{
+                position: absolute;
+                left: 100px;
+                top: 100px;
+            }
+        </style>
+        <script>
+            function a(){
+                var no = document.getElementById("no");
+                no.style.left = Math.floor(Math.random()*950)+"px";
+                no.style.top = Math.floor(Math.random()*580)+"px";
+            }
+         
+        </script>
+    </head>
+
+        <div id="a" clas="a" style="color: blue;">
+			<div align='center'>
+			<span><font face="隶书" size="+5" color="#D5E812" >DO you wang to marry with  me?<br>Please choose</font></span><br />
+            <button onclick="b()" style="background-color" ><font face="隶书" size="+2" color="#1CBED1" ><a href="html5/index.html"> yes</a></font></button>  <br />
+				  
+            <button onmouseover="a()" id="no"><font face="隶书" size="+2" color="#1CBED1" >no</font></button>
+        </div>
+    </body>
+</html>
