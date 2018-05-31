@@ -96,11 +96,11 @@ background-attachment:fixed;" >
 			<div style="margin:5px 0px;">
 			  <input type="text" placeholder="请输入密码..."/>
 			</div><div style="margin:5px 0px;"> </div>
-			<button type="reset" ><a href="http://www.mycodes.net/" target="_blank">登<span style="width:10px;"></span>录</a>
+			<button type="submit" ><a target="_blank">登<span style="width:10px;"></span>录</a>
 			</button>
 		 
 		  <div style="margin:5px 0px;"> </div>
-			<a href="http://www.mycodes.net/" target="_blank"><button type="submit" >重<span style="width:20px;"></span>置</button></a>
+			<a href="login.html"  target="_blank"><button type="reset" >重<span style="width:20px;"></span>置</button></a>
 		   <p>还没有账号？点击这里<a href="register.html">注册</a>
 			 
 	  </form>
