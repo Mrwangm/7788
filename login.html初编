@@ -62,11 +62,12 @@
 	    -ms-transition: all .2s;
 }
 </style>
-<body background='image/001.jpg' style=" background-repeat:no-repeat ;
+<body background='../wallhaven-44824.jpg' style=" background-repeat:no-repeat ;
 background-size:100% 100%; 
 background-attachment:fixed;" >
 	<div align="middle">
-				<marquee behavior=alternate ><font face="隶书" size="+5" color="#2EB4C4"><h2 class="title" id="character" ><p >在人群中多看了你一眼</p></h2></font> </marquee> 
+ 
+			<marquee behavior=alternate ><font face="隶书" size="+5" color="#2EB4C4"><h2 class="title" id="character" ><p >还记得我们的约定吗</p></h2></font> </marquee> 
 
 <script type="text/javascript">
          
@@ -91,17 +92,17 @@ background-attachment:fixed;" >
 	  <form action="">
 		     
 			<div style="margin:5px 0px;">
-			  <input type="text" placeholder="请输入账号..."/>
+			  <input type="text" placeholder="请输入我们的约定..."/>
 			</div>
 			<div style="margin:5px 0px;">
-			  <input type="text" placeholder="请输入密码..."/>
+			  <input type="text" placeholder="请输入我们的记忆..."/>
 			</div><div style="margin:5px 0px;"> </div>
-			<button type="submit" ><a target="_blank">登<span style="width:10px;"></span>录</a>
+			<button type="reset" ><a href='game.html' target="_blank">登<span style="width:10px;"></span>录</a>
 			</button>
 		 
 		  <div style="margin:5px 0px;"> </div>
-			<a href="login.html"  target="_blank"><button type="reset" >重<span style="width:20px;"></span>置</button></a>
-		   <p>还没有账号？点击这里<a href="register.html">注册</a>
+			<a href="" target="_blank"><button type="submit" >忘记<span style="width:20px;"></span>约定</button></a>
+		   <p>还没有约定？点击这里<a href="register.html">约定</a>
 			 
 	  </form>
 	</div>
